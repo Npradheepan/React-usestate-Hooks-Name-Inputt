@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+ 
+
+import ClassCounter from './Components/ClassCounter';
+import ClassMouse from './Components/ClassMouse';
+import Hookmouse from './Components/Hookmouse';
+import Hookscount from './Components/Hookscount';
+import HooksCounterfunc from './Components/HooksCounterfunc';
+import HooksIterm from './Components/HooksIterm';
+import HooksProps from './Components/HooksProps';
+import HooksuseEffect from './Components/HooksUseEffect';
+import HooksUseEffectFunc from './Components/HooksUseEffectFunc';
+import Hookswillmouse from './Components/Hookswillmouse';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <Hookswillmouse />
+
+    {/* <Hookmouse />
+    <ClassMouse /> */}
+
+      {/* Class effect andfunction effect */}
+      {/* <HooksuseEffect />
+     <HooksUseEffectFunc /> */}
+
+     {/* <HooksIterm /> */}
+
+      {/* <HooksProps /> */}
+
+    {/* <HooksCounterfunc /> */}
+
+      {/*  */}
+      {/* <ClassCounter />  */}
+      {/* <Hookscount /> */}
     </div>
   );
 }
